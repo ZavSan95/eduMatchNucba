@@ -1,0 +1,10 @@
+@media (max-width: 1000px){
+
+    .navbar__mobile-btn{
+        display: block;
+    }
+
+    .navbar__nav{
+        display: none;
+    }
+}
