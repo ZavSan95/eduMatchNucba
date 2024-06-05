@@ -1,3 +1,25 @@
+@media (max-width: 1200px){
+
+    .layout__hero{
+        height: 60vh;
+    }
+
+    .content__slogan {
+        font-size: 4rem;
+    }
+
+    .content__description {
+        font-size: 1.2rem;
+    }
+
+    .content__btn a {
+        padding: 0.8rem 1.6rem;
+        font-size: 1.4rem;
+    }
+
+
+}
+
 @media (max-width: 1000px){
 
     .navbar__mobile-btn{
@@ -6,6 +28,14 @@
 
     .navbar__nav{
         display: none;
+    }
+
+    /* HERO */
+
+    .layout__hero{
+        height: auto;
+        padding: 3rem;
+
     }
 
     .hero__container {
@@ -20,7 +50,9 @@
     .content__left, .content__right {
         width: 100%;
         text-align: center;
+        align-items: center;
     }
+
 
     .content__slogan {
         font-size: 4rem;
@@ -31,7 +63,7 @@
     }
 
     .content__buttons {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
 
