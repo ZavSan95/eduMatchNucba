@@ -7,4 +7,64 @@
     .navbar__nav{
         display: none;
     }
+
+    .hero__container {
+        padding: 0 4rem;
+    }
+
+    .hero__content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content__left, .content__right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .content__slogan {
+        font-size: 4rem;
+    }
+
+    .content__description {
+        font-size: 1.6rem;
+    }
+
+    .content__buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content__btn {
+        margin-bottom: 1rem;
+    }
+
+    .content__btn a {
+        padding: 0.8rem 1.6rem;
+        font-size: 1.4rem;
+    }
+
+    .content__img-container {
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .hero__container {
+        padding: 0 2rem;
+    }
+
+    .content__slogan {
+        font-size: 3rem;
+    }
+
+    .content__description {
+        font-size: 1.4rem;
+    }
+
+    .content__btn a {
+        padding: 0.6rem 1.2rem;
+        font-size: 1.2rem;
+    }
 }
