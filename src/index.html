@@ -6,7 +6,7 @@
     <title>EduMatch</title>
 
     <!-- Cargar Fuentes -->
-    <!-- <script src="https://kit.fontawesome.com/eb4a62b60b.js" crossorigin="anonymous"></script> -->
+    <script src="https://kit.fontawesome.com/eb4a62b60b.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -44,83 +44,6 @@
                         <a href="" class="menu-mobile__link">Inicio</a>
                     </li>
 
-                    <li class="menu-mobile__item">
-                        <a href="#" class="menu-mobile__link">Servicios
-                            <i class="fa-solid fa-chevron-down menu-mobile__icon"></i>
-                        </a>
-                        <ul class="menu-mobile__submenu-mobile">
-                            <li class="submenu-mobile__item">
-                                <a href="#" class="submenu-mobile__link">Diseño Web</a>
-                            </li>
-                            <li class="submenu-mobile__item">
-                                <a href="#" class="submenu-mobile__link">Desarrollo Web</a>
-                            </li>
-                            <li class="submenu-mobile__item">
-                                <a href="#" class="submenu-mobile__link">Desarrollo Apps</a>
-                            </li>
-                            <li class="submenu-mobile__item">
-                                <a href="#" class="submenu-mobile__link">Programación</a>
-                            </li>
-                            <li class="submenu-mobile__item">
-                                <a href="#" class="submenu-mobile__link">Consultoría</a>
-                            </li>
-                        </ul>
-                    </li>
-
-                    <li class="menu-mobile__item">
-                        <a href="#" class="menu-mobile__link">Portafolio
-                            <i class="fa-solid fa-chevron-down menu-mobile__icon"></i>
-                        </a>
-                        <ul class="menu-mobile__submenu-mobile">
-                            <li class="submenu-mobile__item">
-                                <a href="#" class="submenu-mobile__link">Diseño Web</a>
-                            </li>
-                            <li class="submenu-mobile__item">
-                                <a href="#" class="submenu-mobile__link">Desarrollo Web</a>
-                            </li>
-                            <li class="submenu-mobile__item">
-                                <a href="#" class="submenu-mobile__link">Desarrollo Apps</a>
-                            </li>
-                            <li class="submenu-mobile__item">
-                                <a href="#" class="submenu-mobile__link">Programación</a>
-                            </li>
-                            <li class="submenu-mobile__item">
-                                <a href="#" class="submenu-mobile__link">Consultoría</a>
-                            </li>
-                        </ul>
-                    </li>
-
-                    <li class="menu-mobile__item">
-                        <a href="#" class="menu-mobile__link">Blog
-                            <i class="fa-solid fa-chevron-down menu-mobile__icon"></i>
-                        </a>
-                        <ul class="menu-mobile__submenu-mobile">
-                            <li class="submenu-mobile__item">
-                                <a href="#" class="submenu-mobile__link">Diseño Web</a>
-                            </li>
-                            <li class="submenu-mobile__item">
-                                <a href="#" class="submenu-mobile__link">Desarrollo Web</a>
-                            </li>
-                            <li class="submenu-mobile__item">
-                                <a href="#" class="submenu-mobile__link">Desarrollo Apps</a>
-                            </li>
-                            <li class="submenu-mobile__item">
-                                <a href="#" class="submenu-mobile__link">Programación</a>
-                            </li>
-                            <li class="submenu-mobile__item">
-                                <a href="#" class="submenu-mobile__link">Consultoría</a>
-                            </li>
-                        </ul>
-                    </li>
-
-                    <li class="menu-mobile__item">
-                        <a href="" class="menu-mobile__link">Equipo</a>
-                    </li>
-
-                    <li class="menu-mobile__item">
-                        <a href="" class="menu-mobile__link">Contacto</a>
-                    </li>
-
                 </ul>
             </nav>
         </div>
@@ -128,12 +51,12 @@
     </div>
 
     <!-- Menu -->
-    <section class="layout__menu">
+    <section class="layout__menu" id="home">
         <header class="menu__navbar">
 
             <!-- Logo -->
             <div class="navbar__logo">
-                <a href="#" class="navbar__link-logo">
+                <a href="#home" class="navbar__link-logo">
                     <img src="assets/img/logoEduMatch2.png" alt="" class="navbar__logo-light">
                 </a>
             </div>
@@ -152,36 +75,23 @@
                 <ul class="nav__list">
 
                     <li class="nav__item">
-                        <a href="" class="nav__title">Inicio</a>
+                        <a href="#home" class="nav__title">Inicio</a>
                     </li>
 
                     <li class="nav__item">
-                        <a href="#" class="nav__title">Servicios
-                            <i class="fa-solid fa-chevron-down nav__icon"></i>
-                        </a>
-                        <!-- <ul class="nav__submenu">
-
-                        </ul> -->
+                        <a href="#profesores" class="nav__title">Profesores</a>
                     </li>
 
                     <li class="nav__item">
-                        <a href="#" class="nav__title">Profesores
-                            <i class="fa-solid fa-chevron-down nav__icon"></i>
-                        </a>
+                        <a href="#estudiantes" class="nav__title">Estudiantes</a>
                     </li>
 
                     <li class="nav__item">
-                        <a href="#" class="nav__title">Estudiantes
-                            <i class="fa-solid fa-chevron-down nav__icon"></i>
-                        </a>
+                        <a href="#comunidad" class="nav__title">Comunidad</a>
                     </li>
 
                     <li class="nav__item">
-                        <a href="" class="nav__title">Comunidad</a>
-                    </li>
-
-                    <li class="nav__item">
-                        <a href="" class="nav__title">Nosotros</a>
+                        <a href="#about" class="nav__title">Nosotros</a>
                     </li>
 
                 </ul>
@@ -243,8 +153,78 @@
 
     </section>
 
+    <!-- Profesores -->
+    <section class="layout__professors" id="profesores">
+        <div class="professors__container">
+            <div class="professors__content">
+                <div class="professors__image">
+                    <img src="assets/img/teacher.svg" alt="Profesores">
+                </div>
+                <div class="professors__text">
+                    <h2 class="professors__title">Profesores</h2>
+                    <p class="professors__description">
+                        ¿Eres profesor? Únete a EduMatch y comienza a impartir clases particulares a estudiantes de todo el mundo. Completa nuestro formulario de inscripción y forma parte de nuestra comunidad de educadores.
+                    </p>
+                    <div class="professors__btn">
+                        <a href="#">Inscribirse como Profesor</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Estudiantes -->
+    <section class="layout__students" id="estudiantes">
+        <div class="students__container">
+            <div class="students__content">
+                <div class="students__image">
+                    <img src="assets/img/student.svg" alt="Estudiantes">
+                </div>
+                <div class="students__text">
+                    <h2 class="students__title">Estudiantes</h2>
+                    <p class="students__description">
+                        ¿Buscas aprender algo nuevo o mejorar tus habilidades? Regístrate en EduMatch como estudiante y conecta con profesores particulares que te ayudarán a alcanzar tus objetivos académicos y profesionales.
+                    </p>
+                    <div class="students__btn">
+                        <a href="#">Registrarse como Estudiante</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comunidad -->
+    <section class="layout__community" id="comunidad">
+        <div class="community__container">
+            <div class="community__content">              
+                <div class="community__image">
+                    <img src="assets/img/comunity.svg" alt="Comunidad">
+                </div>
+                <div class="community__text">
+                    <h2 class="community__title">Comunidad</h2>
+                    <p class="community__description">
+                        EduMatch no es solo una plataforma educativa, sino también una red social donde estudiantes y profesores pueden interactuar, compartir conocimientos y experiencias, y construir una comunidad de aprendizaje colaborativo.
+                    </p>
+                    <div class="community__increment">
+                        <p class="increment__counters"><span id="professors-increment">+100</span> Profesores</p>
+                        <p class="increment__counters"><span id="students-increment">+1500</span> Estudiantes</p>
+                        <p class="increment__counters"><span id="courses-increment">+300</span> Cursos</p>
+                    </div>
+                    <!-- Burbujas -->
+                    <img src="assets/img/bubble-13.png" alt="Bubble 13" class="bubble bubble-13">
+                    <img src="assets/img/bubble-14.png" alt="Bubble 14" class="bubble bubble-14">
+                    <img src="assets/img/bubble-15.png" alt="Bubble 15" class="bubble bubble-15">
+                    <img src="assets/img/bubble-16.png" alt="Bubble 16" class="bubble bubble-16">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
     <!-- ABOUT -->
-    <section class="layout__about">
+    <section class="layout__about" id="about">
         <div class="about__container">
             <div class="about__content">
                 <h2 class="about__title">Sobre EduMatch</h2>
@@ -254,8 +234,55 @@
             </div>
         </div>
     </section>
-
     
+    <!-- Footer -->
+    <footer class="layout__footer">
+        <div class="footer__container">
+            
+            <div class="footer__content">
+
+                <!-- Enlaces Rápidos -->
+                <div class="footer__section footer__links">
+                    <h3 class="footer__title">Enlaces Rápidos</h3>
+                    <ul class="footer__list">
+                        <li class="footer__item"><a href="#" class="footer__link">Inicio</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Profesores</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Estudiantes</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Comunidad</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Nosotros</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contacto -->
+                <div class="footer__section footer__contact">
+                    <h3 class="footer__title">Contacto</h3>
+                    <p class="footer__description">Email: info@edumatch.com</p>
+                    <p class="footer__description">Teléfono: +123 456 7890</p>
+                    <p class="footer__description">Dirección: Calle Falsa 123, Ciudad, País</p>
+                </div>
+
+                <!-- Redes Sociales -->
+                <div class="footer__section footer__social">
+                    <h3 class="footer__title">Síguenos</h3>
+                    <div class="footer__social-links">
+                        <a href="#" class="footer__social-link"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="footer__social-link"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#" class="footer__social-link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="footer__social-link"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            
+            <div class="footer__bottom">
+                <p class="footer__copy">&copy; 2024 EduMatch. Todos los derechos reservados.</p>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="assets/js/counters.js"></script>
+    <script src="assets/js/stickyMenu.js"></script>
     
 </body>
 </html>
